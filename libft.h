@@ -12,6 +12,7 @@
 
 #ifndef LIBFT_H
 # define LIBFT_H
+# define BUFF_SIZE 100
 
 # include <unistd.h>
 # include <stdlib.h>
@@ -89,5 +90,6 @@ int					ft_isupper(int c);
 int					ft_isspace(int c);
 size_t				ft_countwords(char const *s, char c);
 size_t				ft_lenword(char const *s, char c);
+int					get_next_line(const int fd, char **line);
 
 #endif
