@@ -6,11 +6,11 @@
 /*   By: svivienn <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/11 18:56:34 by svivienn          #+#    #+#             */
-/*   Updated: 2019/04/11 18:56:35 by svivienn         ###   ########.fr       */
+/*   Updated: 2019/09/06 18:30:12 by svivienn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 static t_list	*take_fd(const int fd, t_list **list)
 {
